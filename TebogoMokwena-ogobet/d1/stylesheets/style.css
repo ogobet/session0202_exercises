@@ -1,0 +1,14 @@
+body {
+      text-align: center;
+      background-image: url("/home/tebogo/ixperience/projects/profile/images/bgd.jpeg");;
+      background-size: cover;
+      background-position: center;
+      color:white;
+      font-family: helvetica;
+    }
+ img {
+      cler: left;
+      border-radius: 100%;
+      width: 400px;
+      height: 400px;
+    }
