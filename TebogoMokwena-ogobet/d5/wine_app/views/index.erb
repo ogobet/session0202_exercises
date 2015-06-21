@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+  <title>Wine pairings</title>
+  <style>
+    header {
+      text-align: right;
+      font-family: helvetica;
+      margin: 0 auto;
+    }
+    a {
+      color: white;
+    }
+    li {
+      padding: 0px 10px 0px 10px;
+    }
+    h1 {
+    font-size: 40px;
+    color: rgba(140, 7, 22, .9);
+    }
+    body {
+    font-family: helvetica, sans-serif;
+    margin: 0 auto;
+    background: url('http://cruwineinvestment.com/wp-content/uploads/2015/03/red-charry-wine-hd-wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    max-width: 600px;
+  }
+  p {
+  font-size: 19px
+  }
+  article {
+    color: white;
+  }
+  input {
+  border: 0;
+  padding: 10px;
+  font-size: 17px;
+  width: 41%;
+  }
+  input[type="submit"] {
+  background: rgba(140, 7, 22, .9);
+  color: white;
+  width: 17%;
+  border: 9px solid rgba(100, 9, 20, .8);
+  border-radius: 25px;
+  }
+
+  </style>
+</head>
+
+<body>
+<header>
+  <h1>Find the perfect wine/food pairing</h1>
+</header>
+<article>
+  <p>Search for pairing</p>
+
+<form method="get" action="/pairings">
+  <p><input type="text" name="search_input" placeholder="Beef, Chicken, or Seafood"></p>
+  <!-- <p><input type="text" name="dish" placeholder="Dish"></p> -->
+  <p><input type="submit"></p>
+
+</form>
+
+
+</article>
+</body>
